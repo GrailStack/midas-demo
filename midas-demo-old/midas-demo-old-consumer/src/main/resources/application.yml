@@ -1,0 +1,24 @@
+server:
+  port: 8011
+spring:
+  application:
+    name: midas-demo-old-consumer
+  #main:
+  #  allow-bean-definition-overriding: true
+
+
+grail:
+  swagger:
+    api:
+      contactEmail: ceo@itgrail.com
+      contactName: jin.xu
+      description: grail-okr
+      name: grail-okr
+      title: grail-okr
+      version: 1.0.0
+    enabled: true
+    basePackages: com.itgrail.midas
+
+
+
+spring.mvc.pathmatch.matching-strategy: ant_path_matcher

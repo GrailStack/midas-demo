@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.6.13</version>
+		<relativePath />
+	</parent>
+
+	<groupId>org.xujin.defensor</groupId>
+	<artifactId>midas-demo</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>defensor</name>
+
+	<modules>
+		<module>midas-demo-new</module>
+		<module>midas-demo-old</module>
+		<module>midas-demo-common</module>
+    </modules>
+</project>
